@@ -4,6 +4,7 @@ import { login, me } from "./actions/auth";
 // Your own logic for dealing with plaintext password strings; be careful!
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
+  trustHost: true,
   session: {
     strategy: "jwt",
     maxAge: 7200, //2시간
