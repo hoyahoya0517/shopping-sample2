@@ -1,7 +1,6 @@
 import styles from "./page.module.css";
 import Product from "./_components/Product/Product";
 import { getProduct } from "@/actions/product";
-import { redirect } from "next/navigation";
 
 export async function generateMetadata({
   params,

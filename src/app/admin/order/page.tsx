@@ -9,7 +9,6 @@ import OrderCard from "./_components/OrderCard/OrderCard";
 import { useRouter } from "next/navigation";
 import { getUserInfo } from "@/actions/auth";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
-import { BsChevronUp } from "react-icons/bs";
 
 interface OrderResponse {
   orders: OrderType[];

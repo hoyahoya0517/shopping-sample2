@@ -1,7 +1,6 @@
 import styles from "./page.module.css";
 import Collections from "./_components/Collections/Collections";
 import { getCategory } from "@/actions/category";
-import { getProductPageSetting } from "@/actions/productPageSetting";
 
 export async function generateMetadata({
   params,

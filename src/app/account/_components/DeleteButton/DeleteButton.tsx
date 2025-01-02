@@ -1,6 +1,6 @@
 "use client";
 
-import { deleteUser, serverLogout } from "@/actions/auth";
+import { deleteUser } from "@/actions/auth";
 import styles from "./DeleteButton.module.css";
 
 import { useMutation } from "@tanstack/react-query";
